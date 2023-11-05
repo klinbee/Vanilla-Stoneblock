@@ -1,0 +1,11 @@
+{
+  "feature": "stoneblock:ceiling_placer",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 240
+      }
+    }
+  ]
+}
