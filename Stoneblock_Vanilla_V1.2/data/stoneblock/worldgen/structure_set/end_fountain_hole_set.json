@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stoneblock:end_fountain_hole",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20083232,
+    "spacing": 128,
+    "separation": 127
+  }
+}

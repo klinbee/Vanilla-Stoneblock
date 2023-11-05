@@ -1,0 +1,11 @@
+{
+  "feature": "stoneblock:end_stone_placer",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 144
+      }
+    }
+  ]
+}

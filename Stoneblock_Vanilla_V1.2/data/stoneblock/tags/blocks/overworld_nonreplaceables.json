@@ -1,0 +1,26 @@
+{
+  "values": [
+    "minecraft:stone",
+    "minecraft:prismarine",
+    "minecraft:dark_prismarine",
+    "minecraft:prismarine_bricks",
+    "minecraft:sea_lantern",
+    "minecraft:oak_log",
+    "minecraft:spruce_planks",
+    "minecraft:spruce_stairs",
+    "minecraft:oak_fence",
+    "minecraft:flower_pot",
+    "minecraft:dark_oak_planks",
+    "minecraft:dark_oak_fence",
+    "minecraft:dark_oak_stairs",
+    "minecraft:dark_oak_slab",
+    "minecraft:birch_planks",
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_slab",
+    "minecraft:cobblestone_stairs",
+    "minecraft:torch",
+    "minecraft:cobblestone_wall",
+    "minecraft:end_portal_frame",
+    "minecraft:bedrock"
+  ]
+}
