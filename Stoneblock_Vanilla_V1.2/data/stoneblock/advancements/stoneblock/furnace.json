@@ -1,0 +1,36 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:furnace"
+        },
+        "title":
+        {
+            "translate": "Hot Topic"
+        },
+        "description":
+        {
+            "translate": "Acquire a furnace"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/getting_wood",
+    "criteria": {
+        "Stone Hoe": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:furnace"
+                ]
+              }
+            ]
+          }
+        }
+      }
+}

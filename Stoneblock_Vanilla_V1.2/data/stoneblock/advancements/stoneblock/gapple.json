@@ -1,0 +1,37 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:golden_apple"
+        },
+        "title":
+        {
+            "translate": "Forbidden Fruit"
+        },
+        "description":
+        {
+            "translate": "Combine your hard earned nuggets to craft a Golden Apple",
+            "color": "dark_purple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/hidden_cave",
+    "criteria": {
+        "Iron Nugget": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:golden_apple"
+                ]
+              }
+            ]
+          }
+        }
+    }
+}
