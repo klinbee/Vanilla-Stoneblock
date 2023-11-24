@@ -1,0 +1,36 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:cauldron"
+        },
+        "title":
+        {
+            "translate": "Where's my Water?"
+        },
+        "description":
+        {
+            "translate": "Craft a Cauldron to grow your water supply?"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/nugget",
+    "criteria": {
+      "Cauldron": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cauldron"
+              ]
+            }
+          ]
+        }
+      }
+  }
+}

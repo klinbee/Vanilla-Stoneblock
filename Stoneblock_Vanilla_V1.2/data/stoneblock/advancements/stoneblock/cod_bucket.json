@@ -1,0 +1,38 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:cod_bucket"
+        },
+        "title":
+        {
+            "translate": "Cod Buddy"
+        },
+        "description":
+        {
+            "translate": "Trade with a villager for your water",
+            "color": "dark_purple"
+
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/string",
+    "criteria": {
+        "Bucket of Cod": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:cod_bucket"
+                ]
+              }
+            ]
+          }
+        }
+      }
+}
