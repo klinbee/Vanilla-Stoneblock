@@ -27,10 +27,6 @@
     [],
     [],
     [
-      "stoneblock:0",
-      "stoneblock:16",
-      "stoneblock:32",
-      "stoneblock:48",
       "stoneblock:64",
       "stoneblock:80",
       "stoneblock:96",
@@ -47,11 +43,7 @@
     ],
     [],
     [
-      "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain",
-      "minecraft:flower_cherry",
-      "minecraft:trees_cherry"
+      "minecraft:flower_cherry"
     ],
     [
       "minecraft:freeze_top_layer"

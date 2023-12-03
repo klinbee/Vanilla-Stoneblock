@@ -25,10 +25,6 @@
     [],
     [],
     [
-      "stoneblock:0",
-      "stoneblock:16",
-      "stoneblock:32",
-      "stoneblock:48",
       "stoneblock:64",
       "stoneblock:80",
       "stoneblock:96",
@@ -45,15 +41,8 @@
     ],
     [],
     [
-      "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "minecraft:birch_tall",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:flower_default"
     ],
     [
       "minecraft:freeze_top_layer"

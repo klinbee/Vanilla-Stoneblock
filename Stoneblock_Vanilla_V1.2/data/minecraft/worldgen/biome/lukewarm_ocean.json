@@ -19,8 +19,6 @@
     [],
     [],
     [
-      "stoneblock:0",
-      "stoneblock:16",
       "stoneblock:32",
       "stoneblock:48",
       "stoneblock:64",
@@ -39,16 +37,7 @@
     ],
     [],
     [
-      "minecraft:glow_lichen",
-      "minecraft:trees_water",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "minecraft:flower_default"
     ],
     [
       "minecraft:freeze_top_layer"

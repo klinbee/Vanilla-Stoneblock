@@ -25,10 +25,6 @@
     [],
     [],
     [
-      "stoneblock:0",
-      "stoneblock:16",
-      "stoneblock:32",
-      "stoneblock:48",
       "stoneblock:64",
       "stoneblock:80",
       "stoneblock:96",
@@ -43,20 +39,9 @@
       "stoneblock:240",
       "stoneblock:ceiling"
     ],
+    [],
     [
-      "minecraft:sculk_vein",
-      "minecraft:sculk_patch_deep_dark"
-    ],
-    [
-      "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:flower_plains"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -25,10 +25,6 @@
     [],
     [],
     [
-      "stoneblock:0",
-      "stoneblock:16",
-      "stoneblock:32",
-      "stoneblock:48",
       "stoneblock:64",
       "stoneblock:80",
       "stoneblock:96",
@@ -44,9 +40,7 @@
       "stoneblock:ceiling"
     ],
     [],
-    [
-      "minecraft:glow_lichen"
-    ],
+    [],
     [
       "minecraft:freeze_top_layer"
     ]
