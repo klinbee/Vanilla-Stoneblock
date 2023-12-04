@@ -1,0 +1,39 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "title":
+        {
+            "translate": "Secrets of the Cave"
+        },
+        "description":
+        {
+            "translate": "Discover Stoneblock's bonus cave, located east of spawn"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/root",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:sand"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    

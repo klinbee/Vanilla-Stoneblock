@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:flowering_azalea"
+      },
+      "title": {
+        "translate": "Getting Wood"
+      },
+      "description": {
+        "translate": "Acquire your first Oak Log with the help of azaleas"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/bone_meal",
+    "criteria": {
+      "Oak Log": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_log"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  
