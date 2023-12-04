@@ -7,11 +7,11 @@
         },
         "title":
         {
-            "translate": "Where's my Water?"
+            "translate": "Lava Multiplier"
         },
         "description":
         {
-            "translate": "Craft a Cauldron to grow your water supply?"
+            "translate": "Craft a Cauldron to grow your Lava supply"
         },
         "frame": "goal",
         "show_toast": true,

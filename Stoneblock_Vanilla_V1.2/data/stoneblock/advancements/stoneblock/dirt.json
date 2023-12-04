@@ -11,7 +11,7 @@
         },
         "description":
         {
-            "translate": "Extract the root from rooted dirt to get a much more useful dirt"
+            "translate": "Extract the root from Rooted Dirt to get a much more useful Dirt"
         },
         "frame": "task",
         "show_toast": true,

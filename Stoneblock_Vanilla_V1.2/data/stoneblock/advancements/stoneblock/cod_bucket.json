@@ -7,11 +7,11 @@
         },
         "title":
         {
-            "translate": "Cod Buddy"
+            "translate": "Smells Fishy"
         },
         "description":
         {
-            "translate": "Trade with a villager for your water",
+            "translate": "Trade with a Fisherman Villager to get your first source of Water and a Fishy Friend",
             "color": "dark_purple"
 
         },
@@ -20,7 +20,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "stoneblock:stoneblock/string",
+    "parent": "stoneblock:stoneblock/gapple",
     "criteria": {
         "Bucket of Cod": {
           "trigger": "minecraft:inventory_changed",

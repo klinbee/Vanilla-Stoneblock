@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/stronghold",
-  "step": "surface_structures",
+  "step": "raw_generation",
   "spawn_overrides": {},
   "terrain_adaptation": "bury",
   "start_pool": "stoneblock:end_portal_pool",

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:ocean_ruin",
-  "biome_temp": "warm",
-  "biomes": "minecraft:the_void",
-  "cluster_probability": 0.9,
-  "large_probability": 0.3,
-  "spawn_overrides": {},
-  "step": "surface_structures"
-}
