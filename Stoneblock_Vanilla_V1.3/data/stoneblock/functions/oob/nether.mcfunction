@@ -1,4 +1,4 @@
-execute in the_nether run tp @s 0 64 0 -45 0
+tp @s 0 64 0 -45 0
 
 tellraw @s ["",{"text":"Glitch in the Matrix detected! ","bold":true,"color":"red"},{"text":"Respawning player at default coordinates...","color":"red"}]
 

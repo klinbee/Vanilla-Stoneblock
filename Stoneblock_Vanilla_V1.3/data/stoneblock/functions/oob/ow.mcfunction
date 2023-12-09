@@ -1,6 +1,5 @@
-execute in overworld run tp @s 0 64 0 -45 0
-
-execute in overworld run spawnpoint @s 0 64 0 -45
+#moves spawnpoint from roof and teleports player down.
+function stoneblock:spawnpoint/mover
 
 advancement grant @s only stoneblock:stoneblock/matrix
 

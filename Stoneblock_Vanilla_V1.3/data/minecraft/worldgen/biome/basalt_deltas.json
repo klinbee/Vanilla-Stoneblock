@@ -32,13 +32,11 @@
   },
   "features": [
     [
-      "stoneblock:0n",
-      "stoneblock:16n",
-      "stoneblock:32n",
-      "stoneblock:48n",
-      "stoneblock:64n",
-      "stoneblock:80n",
-      "stoneblock:96n"
+      "stoneblock:nether/32",
+      "stoneblock:nether/48",
+      "stoneblock:nether/64",
+      "stoneblock:nether/80",
+      "stoneblock:nether/96"
     ],
     [],
     [],

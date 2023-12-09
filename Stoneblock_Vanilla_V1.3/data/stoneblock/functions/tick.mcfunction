@@ -1,9 +1,2 @@
-execute unless score $sb loaded matches 1 run function stoneblock:start
-
-execute as @a run execute unless score @s spawnset matches 1 run execute as @s run function stoneblock:spawn_setter
-
-execute at @a if dimension minecraft:the_end run execute unless score $sb endloaded matches 1 run function stoneblock:end_setup
-
-execute unless score $sb nodes matches 1 run function stoneblock:node_maker
-
-execute at @e[type=ender_dragon] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace end_stone
+#dragon cannot break endstone... sooo lol; distance checking to limit area checked by Minecraft
+execute at @e[type=ender_dragon,x=0,y=0,z=0,dx=256,dy=256,dz=256] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace end_stone

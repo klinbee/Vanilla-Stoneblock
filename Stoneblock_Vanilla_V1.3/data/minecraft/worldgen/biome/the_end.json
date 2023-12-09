@@ -22,24 +22,24 @@
     [],
     [],
     [],
-    [],
-    [
-      "stoneblock:64e",
-      "stoneblock:80e",
-      "stoneblock:96e",
-      "stoneblock:112e",
-      "stoneblock:128e",
-      "stoneblock:144e",
-      "stoneblock:160e",
-      "stoneblock:176e",
-      "stoneblock:192e",
-      "stoneblock:208e",
-      "stoneblock:224e",
-      "stoneblock:240e"
-    ],
     [
       "minecraft:end_spike"
-    ]
+    ],
+    [
+      "stoneblock:end/64",
+      "stoneblock:end/80",
+      "stoneblock:end/96",
+      "stoneblock:end/112",
+      "stoneblock:end/128",
+      "stoneblock:end/144",
+      "stoneblock:end/160",
+      "stoneblock:end/176",
+      "stoneblock:end/192",
+      "stoneblock:end/208",
+      "stoneblock:end/224",
+      "stoneblock:end/240"
+    ],
+    []
   ],
   "has_precipitation": false,
   "spawn_costs": {},
