@@ -1,0 +1,108 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:bamboo_planks"
+        },
+        "title":
+        {
+            "translate": "all planks"
+        },
+        "description":
+        {
+            "translate": "all planks"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/challenges/bamboo",
+    "criteria": {
+        "Bamboo Planks": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:bamboo_planks"
+                ]
+              }
+            ]
+          }
+        },
+        "Oak Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:oak_planks"
+                  ]
+                }
+              ]
+            }
+          },
+          "Dark Oak Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:dark_oak_planks"
+                  ]
+                }
+              ]
+            }
+          },
+          "Birch Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:birch_planks"
+                  ]
+                }
+              ]
+            }
+          },
+          "Spruce Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:spruce_planks"
+                  ]
+                }
+              ]
+            }
+          },
+          "Warped Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:warped_planks"
+                  ]
+                }
+              ]
+            }
+          },
+          "Crimson Planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:crimson_planks"
+                  ]
+                }
+              ]
+            }
+          }
+      }
+}

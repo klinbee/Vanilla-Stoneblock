@@ -1,0 +1,36 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:bamboo"
+        },
+        "title":
+        {
+            "translate": "bamboo"
+        },
+        "description":
+        {
+            "translate": "Obtain a piece of Bamboo from the Jungle"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "stoneblock:stoneblock/challenges/root",
+    "criteria": {
+        "Bamboo": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:bamboo"
+                ]
+              }
+            ]
+          }
+        }
+      }
+}
