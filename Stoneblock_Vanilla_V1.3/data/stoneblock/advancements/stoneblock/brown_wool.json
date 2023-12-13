@@ -1,36 +1,32 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:brown_bed"
-        },
-        "title":
-        {
-            "translate": "Luxury Linen"
-        },
-        "description":
-        {
-            "translate": "Obtain the rarest type of wool from a Brown Sheep"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_bed"
     },
-    "parent": "stoneblock:stoneblock/grass",
-    "criteria": {
-        "Brown Wool": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Luxury Linen"
+    },
+    "description": {
+      "translate": "Obtain the rarest type of wool from a Brown Sheep"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/grass_block",
+  "criteria": {
+    "Brown Wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:brown_wool"
-                ]
-              }
+              "minecraft:brown_wool"
             ]
           }
-        }
+        ]
       }
+    }
+  }
 }

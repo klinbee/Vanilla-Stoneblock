@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:shulker_shell"
     },
     "title": {
-      "translate": "Budget Haste"
+      "translate": "How Did This Get Here?"
     },
     "description": {
-      "translate": "Acquire the optimal tool for Moss mining"
+      "translate": "Weird, the floor is raining shulker shells"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/getting_wood",
+  "parent": "stoneblock:stoneblock/ender_eye",
   "criteria": {
-    "Stone Hoe": {
+    "Shulker Shell": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_hoe"
+              "minecraft:shulker_shell"
             ]
           }
         ]

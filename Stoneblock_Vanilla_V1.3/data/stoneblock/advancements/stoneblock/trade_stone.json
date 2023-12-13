@@ -1,16 +1,12 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:stone"
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
         },
-        "title":
-        {
+        "title": {
             "translate": "Rocks to Riches"
         },
-        "description":
-        {
+        "description": {
             "translate": "Trade your stone to a Mason Villager"
         },
         "frame": "task",
@@ -18,22 +14,22 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "stoneblock:stoneblock/iron_age",
+    "parent": "stoneblock:stoneblock/kill_iron_golem",
     "criteria": {
-		"Stone": {
-			"trigger": "minecraft:villager_trade",
-			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:emerald"
-					]
-				},
+        "Stone": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:emerald"
+                    ]
+                },
                 "conditions": {
                     "villager": {
                         "nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
                     }
                 }
-			}
-		}
-	}
+            }
+        }
+    }
 }

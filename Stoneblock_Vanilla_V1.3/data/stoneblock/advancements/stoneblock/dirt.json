@@ -1,36 +1,32 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:rooted_dirt"
-        },
-        "title":
-        {
-            "translate": "Root Removal"
-        },
-        "description":
-        {
-            "translate": "Extract the root from Rooted Dirt to get a much more useful Dirt"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:rooted_dirt"
     },
-    "parent": "stoneblock:stoneblock/stone_hoe",
-    "criteria": {
-        "Hanging Roots": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Root Removal"
+    },
+    "description": {
+      "translate": "Extract the root from Rooted Dirt to get a much more useful Dirt"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/stone_hoe",
+  "criteria": {
+    "Hanging Roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:hanging_roots"
-                ]
-              }
+              "minecraft:hanging_roots"
             ]
           }
-        }
+        ]
       }
+    }
+  }
 }

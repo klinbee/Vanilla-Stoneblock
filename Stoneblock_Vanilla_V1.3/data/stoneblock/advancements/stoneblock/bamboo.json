@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:bamboo"
     },
     "title": {
-      "translate": "Budget Haste"
+      "translate": "The Master of All Grass"
     },
     "description": {
-      "translate": "Acquire the optimal tool for Moss mining"
+      "translate": "Obtain a piece of Bamboo from fishing in a Jungle"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/getting_wood",
+  "parent": "stoneblock:stoneblock/cod_bucket",
   "criteria": {
-    "Stone Hoe": {
+    "Bamboo": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_hoe"
+              "minecraft:bamboo"
             ]
           }
         ]

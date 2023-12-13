@@ -1,38 +1,33 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:cod_bucket"
-        },
-        "title":
-        {
-            "translate": "Smells Fishy"
-        },
-        "description":
-        {
-            "translate": "Trade with a Fisherman Villager to get your first source of Water and a Fishy Friend",
-            "color": "dark_purple"
-
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:cod_bucket"
     },
-    "parent": "stoneblock:stoneblock/gapple",
-    "criteria": {
-        "Bucket of Cod": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Smells Fishy"
+    },
+    "description": {
+      "translate": "Trade with a Fisherman Villager to get your first source of Water and a Fishy Friend",
+      "color": "dark_purple"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/gapple",
+  "criteria": {
+    "Bucket of Cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:cod_bucket"
-                ]
-              }
+              "minecraft:cod_bucket"
             ]
           }
-        }
+        ]
       }
+    }
+  }
 }

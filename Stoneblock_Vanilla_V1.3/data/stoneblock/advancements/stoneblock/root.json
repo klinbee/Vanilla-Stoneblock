@@ -1,16 +1,12 @@
 {
-    "display":
-    {
-        "icon":
-        {
+    "display": {
+        "icon": {
             "item": "minecraft:stone"
         },
-        "title":
-        {
+        "title": {
             "translate": "Stoneblock"
         },
-        "description":
-        {
+        "description": {
             "translate": "Welcome to Stoneblock!"
         },
         "frame": "task",
@@ -19,10 +15,8 @@
         "hidden": false,
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
-    "criteria":
-    {
-        "stoneblock":
-        {
+    "criteria": {
+        "stoneblock": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -1,22 +1,22 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:iron_block"
     },
     "title": {
-      "translate": "Gilded Age"
+      "translate": "Iron Age"
     },
     "description": {
-      "translate": "Kill a Zombified Piglin"
+      "translate": "Kill an Iron Golem"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/cod_bucket",
+  "parent": "stoneblock:stoneblock/kill_zombie_pig",
   "criteria": {
-    "Zombified Piglin": {
+    "Iron Golem": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
@@ -24,7 +24,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:zombified_piglin"
+              "type": "minecraft:iron_golem"
             }
           }
         ]

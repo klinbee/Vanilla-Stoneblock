@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:grass_block"
     },
     "title": {
-      "translate": "Budget Haste"
+      "translate": "Hey! You Took My Lawn!"
     },
     "description": {
-      "translate": "Acquire the optimal tool for Moss mining"
+      "translate": "Take back a Grass Block from an Enderman"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/getting_wood",
+  "parent": "stoneblock:stoneblock/dirt_stack",
   "criteria": {
-    "Stone Hoe": {
+    "Grass Block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_hoe"
+              "minecraft:grass_block"
             ]
           }
         ]

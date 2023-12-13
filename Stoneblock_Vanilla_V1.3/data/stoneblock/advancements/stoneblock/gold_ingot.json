@@ -1,36 +1,32 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:gold_ingot"
-        },
-        "title":
-        {
-            "translate": "Gold Rush"
-        },
-        "description":
-        {
-            "translate": "Craft your Gold Nuggets into one of many Gold Ingots..."
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
     },
-    "parent": "stoneblock:stoneblock/nugget",
-    "criteria": {
-        "Gold Ingot": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Gold Rush"
+    },
+    "description": {
+      "translate": "Craft your Gold Nuggets into one of many Gold Ingots..."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/nugget",
+  "criteria": {
+    "Gold Ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:gold_ingot"
-                ]
-              }
+              "minecraft:gold_ingot"
             ]
           }
-        }
+        ]
       }
+    }
+  }
 }

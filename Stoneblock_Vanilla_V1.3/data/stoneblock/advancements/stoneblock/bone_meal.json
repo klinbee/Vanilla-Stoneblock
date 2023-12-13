@@ -1,16 +1,12 @@
 {
-    "display":
-    {
-        "icon":
-        {
+    "display": {
+        "icon": {
             "item": "minecraft:moss_block"
         },
-        "title":
-        {
+        "title": {
             "translate": "Green Thumb"
         },
-        "description":
-        {
+        "description": {
             "translate": "Spread your Moss with Bone Meal"
         },
         "frame": "task",
@@ -18,7 +14,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "stoneblock:stoneblock/root",
+    "parent": "stoneblock:stoneblock/kill_skeleton",
     "criteria": {
         "Bone Meal Moss": {
             "trigger": "minecraft:item_used_on_block",

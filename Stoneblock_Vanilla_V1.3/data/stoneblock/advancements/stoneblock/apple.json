@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:apple"
     },
     "title": {
-      "translate": "Budget Haste"
+      "translate": "Doctors, Beware!"
     },
     "description": {
-      "translate": "Acquire the optimal tool for Moss mining"
+      "translate": "Obtain an Apple from an Oak Tree"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/getting_wood",
+  "parent": "stoneblock:stoneblock/hidden_cave",
   "criteria": {
-    "Stone Hoe": {
+    "Apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_hoe"
+              "minecraft:apple"
             ]
           }
         ]

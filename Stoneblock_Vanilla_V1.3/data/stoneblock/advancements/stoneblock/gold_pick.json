@@ -1,36 +1,32 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:golden_pickaxe"
-        },
-        "title":
-        {
-            "translate": "Expensive Haste"
-        },
-        "description":
-        {
-            "translate": "Use a Gold Pickaxe to plow through Netherrack"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
     },
-    "parent": "stoneblock:stoneblock/kill_zombie_pig",
-    "criteria": {
-        "Stone Hoe": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Expensive Haste"
+    },
+    "description": {
+      "translate": "Use a Gold Pickaxe to plow through Netherrack"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/kill_zombie_pig",
+  "criteria": {
+    "Stone Hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:golden_pickaxe"
-                ]
-              }
+              "minecraft:golden_pickaxe"
             ]
           }
-        }
+        ]
       }
+    }
+  }
 }

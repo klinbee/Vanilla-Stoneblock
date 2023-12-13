@@ -1,28 +1,28 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:egg"
     },
     "title": {
-      "translate": "Budget Haste"
+      "translate": "Which Came First?"
     },
     "description": {
-      "translate": "Acquire the optimal tool for Moss mining"
+      "translate": "Obtain an Egg from a Normal Chicken"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/getting_wood",
+  "parent": "stoneblock:stoneblock/grass_block",
   "criteria": {
-    "Stone Hoe": {
+    "Egg": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_hoe"
+              "minecraft:egg"
             ]
           }
         ]

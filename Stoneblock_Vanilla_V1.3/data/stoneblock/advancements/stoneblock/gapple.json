@@ -1,37 +1,33 @@
 {
-    "display":
-    {
-        "icon":
-        {
-            "item": "minecraft:golden_apple"
-        },
-        "title":
-        {
-            "translate": "Forbidden Fruit"
-        },
-        "description":
-        {
-            "translate": "Use your hard earned Gold Ingots to craft a Golden Apple",
-            "color": "dark_purple"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
     },
-    "parent": "stoneblock:stoneblock/gold_ingot",
-    "criteria": {
-        "Golden Apple": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
+    "title": {
+      "translate": "Forbidden Fruit"
+    },
+    "description": {
+      "translate": "Use your hard earned Gold Ingots to craft a Golden Apple",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/gold_ingot",
+  "criteria": {
+    "Golden Apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
             "items": [
-              {
-                "items": [
-                  "minecraft:golden_apple"
-                ]
-              }
+              "minecraft:golden_apple"
             ]
           }
-        }
+        ]
+      }
     }
+  }
 }
