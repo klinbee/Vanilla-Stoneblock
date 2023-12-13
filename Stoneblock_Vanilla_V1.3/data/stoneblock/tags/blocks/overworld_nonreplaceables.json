@@ -21,6 +21,23 @@
     "minecraft:torch",
     "minecraft:cobblestone_wall",
     "minecraft:end_portal_frame",
+    "minecraft:stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:iron_bars",
+    "minecraft:bookshelf",
+    "minecraft:oak_planks",
+    "minecraft:smooth_stone_slab",
+    "minecraft:stone_brick_stairs",
+    "minecraft:cobweb",
+    "minecraft:stone_brick_slab",
+    "minecraft:iron_door",
+    "minecraft:oak_door",
+    "minecraft:stone_button",
+    "minecraft:spawner",
+    "minecraft:ladder",
+    "minecraft:end_portal",
+    "minecraft:infested_stone_bricks",
     "minecraft:bedrock"
   ]
 }
