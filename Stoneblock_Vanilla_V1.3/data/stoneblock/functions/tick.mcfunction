@@ -1,2 +1,2 @@
 #dragon cannot break endstone... sooo lol; distance checking to limit area checked by Minecraft
-execute at @e[type=ender_dragon,x=0,y=0,z=0,dx=256,dy=256,dz=256] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace end_stone
+execute in the_end at @e[type=ender_dragon,x=-256,y=0,z=-256,dx=512,dy=256,dz=512] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace end_stone
