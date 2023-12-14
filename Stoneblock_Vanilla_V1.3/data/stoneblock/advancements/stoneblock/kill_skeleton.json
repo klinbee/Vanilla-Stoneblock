@@ -7,14 +7,14 @@
       "translate": "I've Got a Bone to Pick"
     },
     "description": {
-      "translate": "Dig far enough for a skeleton to spawn and kill it for a bone"
+      "translate": "Dig far enough for a Skeleton to spawn and kill it for a bone"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/root",
+  "parent": "stoneblock:stoneblock/baby_steps",
   "criteria": {
     "Skeleton": {
       "trigger": "minecraft:player_killed_entity",
