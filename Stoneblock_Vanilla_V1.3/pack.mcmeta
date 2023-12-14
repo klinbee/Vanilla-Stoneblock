@@ -11,8 +11,16 @@
         "color": "#AAAAAA"
       },
       {
-        "text": "Quidvio & tjthings",
+        "text": "Quidvio",
         "color": "#ffc76f"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "tjthings",
+        "color": "#81cd9a"
       }
     ],
     "pack_format": 15,
