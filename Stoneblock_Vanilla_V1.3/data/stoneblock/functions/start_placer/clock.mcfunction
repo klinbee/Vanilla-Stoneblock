@@ -9,6 +9,3 @@ execute in the_end run function stoneblock:start_placer/end_nodes
 
 #sets stoneblock loaded score to 1 to the clock.
 scoreboard players set $sb loaded 1
-
-#clock function
-execute unless score $sb loaded matches 1 run schedule function stoneblock:oob/detection_clock 1s replace
