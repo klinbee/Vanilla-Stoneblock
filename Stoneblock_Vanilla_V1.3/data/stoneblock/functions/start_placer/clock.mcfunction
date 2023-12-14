@@ -7,7 +7,7 @@ execute in the_nether run function stoneblock:start_placer/nether
 #same thing but for the end
 execute in the_end run function stoneblock:start_placer/end_nodes
 
-#sets stoneblock loaded score to 1 to end clock.
+#sets stoneblock loaded score to 1 to the clock.
 scoreboard players set $sb loaded 1
 
 #clock function
