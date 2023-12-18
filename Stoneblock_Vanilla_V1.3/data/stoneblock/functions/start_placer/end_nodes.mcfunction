@@ -1,7 +1,20 @@
 #creates holes at the location of ender dragon nodes, so the dragon will be able to path find.
 
-#loads 9x9 chunk area centered on 0,0 in the end to place holes.
-forceload add -4 -4 4 4
+#loads the end island to set node holes and cover pillars
+forceload add 63 63 -64 -64
+
+#end pillar positions, max size is 11x47x11 at y=66
+execute positioned 42 66 0 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned 33 66 -25 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned 12 66 -40 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned -13 66 -40 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned -34 66 -25 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned -42 66 -1 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned -34 66 24 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned -13 66 39 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned 12 66 39 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+execute positioned 33 66 24 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone replace minecraft:air
+
 
 #various node positions; this is not all of the node positions, but it works well enough.
 fill 20 70 0 20 255 0 air
@@ -25,4 +38,4 @@ fill 0 70 -60 0 255 -60 air
 scoreboard players set $sb nodes 1
 
 #unloads area
-forceload remove -10 -10 10 10
+forceload remove 63 63 -64 -64
