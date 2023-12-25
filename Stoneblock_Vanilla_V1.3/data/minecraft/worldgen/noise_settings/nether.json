@@ -12,7 +12,7 @@
   },
   "noise": {
     "min_y": 0,
-    "height": 256,
+    "height": 128,
     "size_horizontal": 4,
     "size_vertical": 4
   },
@@ -78,7 +78,7 @@
         "if_true": {
             "type": "minecraft:y_above",
             "anchor": {
-              "absolute": 255
+              "absolute": 127
             },
             "surface_depth_multiplier": 0,
             "add_stone_depth": false
