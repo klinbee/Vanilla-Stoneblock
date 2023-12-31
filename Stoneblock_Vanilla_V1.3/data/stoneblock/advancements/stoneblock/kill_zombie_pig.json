@@ -7,7 +7,7 @@
       "translate": "Gilded Age"
     },
     "description": {
-      "translate": "Kill a Zombified Piglin"
+      "translate": "Kill a Zombified Piglin, and enter the Gilded Age"
     },
     "frame": "task",
     "show_toast": true,

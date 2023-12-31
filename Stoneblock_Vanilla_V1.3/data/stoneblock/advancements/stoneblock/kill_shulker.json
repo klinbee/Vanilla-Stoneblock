@@ -1,22 +1,22 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:shulker_box"
     },
     "title": {
-      "translate": "Iron Age"
+      "translate": "Box Elimination"
     },
     "description": {
-      "translate": "Kill an Iron Golem, and enter the Iron Age"
+      "translate": "Kill a Shulker"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/kill_zombie_pig",
+  "parent": "stoneblock:stoneblock/ender_eye",
   "criteria": {
-    "Iron Golem": {
+    "Shulker": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
@@ -24,7 +24,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:iron_golem"
+              "type": "minecraft:shulker"
             }
           }
         ]
