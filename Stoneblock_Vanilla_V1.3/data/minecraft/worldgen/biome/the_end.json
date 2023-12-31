@@ -29,15 +29,7 @@
       "stoneblock:end/64",
       "stoneblock:end/80",
       "stoneblock:end/96",
-      "stoneblock:end/112",
-      "stoneblock:end/128",
-      "stoneblock:end/144",
-      "stoneblock:end/160",
-      "stoneblock:end/176",
-      "stoneblock:end/192",
-      "stoneblock:end/208",
-      "stoneblock:end/224",
-      "stoneblock:end/240"
+      "stoneblock:end/112"
     ],
     []
   ],
