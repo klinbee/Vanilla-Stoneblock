@@ -17,23 +17,23 @@ execute positioned 33 66 24 run fill ~-5 ~ ~-5 ~5 ~47 ~5 minecraft:end_stone rep
 
 
 #various node positions; this is not all of the node positions, but it works well enough.
-fill 20 70 0 20 255 0 air
-fill -20 70 0 -20 255 0 air
+fill 20 70 0 20 127 0 air
+fill -20 70 0 -20 127 0 air
 
-fill 0 70 20 0 255 20 air
-fill 0 70 -20 0 255 -20 air
+fill 0 70 20 0 127 20 air
+fill 0 70 -20 0 127 -20 air
 
-fill 40 70 0 40 255 0 air
-fill -40 70 0 -40 255 0 air
+fill 40 70 0 40 127 0 air
+fill -40 70 0 -40 127 0 air
 
-fill 0 70 40 0 255 40 air
-fill 0 70 -40 0 255 -40 air
+fill 0 70 40 0 127 40 air
+fill 0 70 -40 0 127 -40 air
 
-fill 60 70 0 60 255 0 air
-fill -60 70 0 -60 255 0 air
+fill 60 70 0 60 127 0 air
+fill -60 70 0 -60 127 0 air
 
-fill 0 70 60 0 255 60 air
-fill 0 70 -60 0 255 -60 air
+fill 0 70 60 0 127 60 air
+fill 0 70 -60 0 127 -60 air
 
 scoreboard players set $sb nodes 1
 
