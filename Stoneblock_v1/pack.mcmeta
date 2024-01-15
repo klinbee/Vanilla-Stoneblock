@@ -26,15 +26,15 @@
     "pack_format": 15,
     "supported_formats": [
       15,
-      26
+      999
     ]
   },
   "overlays": {
     "entries": [
       {
         "formats": [
-          17,
-          26
+          999,
+          999
         ],
         "directory": "overlay1"
       }
