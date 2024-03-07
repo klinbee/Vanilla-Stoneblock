@@ -1,0 +1,1 @@
+$summon minecraft:trader_llama 0 64 -2 {LeashL:$(uuid)}
