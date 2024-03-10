@@ -1,4 +1,4 @@
-# spawns the llamas
+# spawns the llamas, and attaches leads to them
 summon minecraft:trader_llama ~ ~ ~
 summon minecraft:trader_llama ~ ~ ~
 

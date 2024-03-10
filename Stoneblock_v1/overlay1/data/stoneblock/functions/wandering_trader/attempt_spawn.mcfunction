@@ -1,1 +1,2 @@
+# attempts to spawn the wandering trader at a random xz offset from the player, if the blocks that it spawn at are air.
 $execute positioned ~$(x) ~ ~$(z) if block ~ ~ ~ air if block ~ ~1 ~ air run function stoneblock:wandering_trader/spawn_trader
