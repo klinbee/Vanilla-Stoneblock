@@ -7,7 +7,7 @@
       "translate": "Luxury Linen"
     },
     "description": {
-      "translate": "Obtain the rarest type of wool from a Brown Sheep"
+      "translate": "Obtain the rarest type of wool from a Brown Sheep or Wandering Trader"
     },
     "frame": "challenge",
     "show_toast": true,

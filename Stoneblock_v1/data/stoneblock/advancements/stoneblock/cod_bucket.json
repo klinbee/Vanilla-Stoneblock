@@ -28,6 +28,30 @@
           }
         ]
       }
+    },
+    "Bucket of Tropical Fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "Bucket of Pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish_bucket"
+            ]
+          }
+        ]
+      }
     }
   }
 }
