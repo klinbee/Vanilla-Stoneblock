@@ -4,6 +4,3 @@ execute in minecraft:the_nether at @a[x=0] as @a[y=128,dy=100000,gamemode=surviv
 
 #clock function
 schedule function stoneblock:oob/detection_clock 1s replace
-
-
-
