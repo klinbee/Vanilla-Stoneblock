@@ -2,5 +2,4 @@
 execute in minecraft:overworld at @p[x=0] as @p[y=0,dy=128] unless entity @e[type=minecraft:wandering_trader] run function stoneblock:wandering_trader/spawn_trader
 
 #clock function
-say hi
-schedule function stoneblock:wandering_trader/clock 5s replace
+schedule function stoneblock:wandering_trader/clock 2d replace
