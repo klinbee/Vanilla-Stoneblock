@@ -1,32 +1,31 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:shulker_box",
+      "count": 1
     },
     "title": {
-      "translate": "Pompeii"
+      "translate": "Box Elimination"
     },
     "description": {
-      "translate": "Find the remains of a Pillager Outpost covered in stone"
+      "translate": "Kill a Shulker"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/mob_drops",
+  "parent": "stoneblock:stoneblock/ender_eye",
   "criteria": {
-    "outpost": {
-      "trigger": "minecraft:location",
+    "Shulker": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
+        "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "location": {
-                "structure": "pillager_outpost"
-              }
+              "type": "minecraft:shulker"
             }
           }
         ]

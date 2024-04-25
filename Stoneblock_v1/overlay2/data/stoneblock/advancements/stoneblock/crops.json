@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato",
+      "count": 1
+    },
+    "title": {
+      "translate": "Finally, some Good Food"
+    },
+    "description": {
+      "translate": "Plant Wheat, Carrots and Potatoes to quit Rotton Flesh"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/dirt_stack",
+  "criteria": {
+    "Wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Carrots": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:carrots"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Potatoes": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:potatoes"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

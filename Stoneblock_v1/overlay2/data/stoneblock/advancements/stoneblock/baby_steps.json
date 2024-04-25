@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "count": 1
+    },
+    "title": {
+      "translate": "Baby Steps"
+    },
+    "description": {
+      "translate": "Dig to take your first steps out of the starting area"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/root",
+  "criteria": {
+    "Leave Spawn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "x": {
+                      "min": 0,
+                      "max": 6
+                    },
+                    "z": {
+                      "min": 0,
+                      "max": 6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

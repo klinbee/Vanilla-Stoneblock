@@ -1,32 +1,31 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:gold_block",
+      "count": 1
     },
     "title": {
-      "translate": "Pompeii"
+      "translate": "Gilded Age"
     },
     "description": {
-      "translate": "Find the remains of a Pillager Outpost covered in stone"
+      "translate": "Kill a Zombified Piglin, and enter the Gilded Age"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/mob_drops",
+  "parent": "stoneblock:stoneblock/cod_bucket",
   "criteria": {
-    "outpost": {
-      "trigger": "minecraft:location",
+    "Zombified Piglin": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
+        "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "location": {
-                "structure": "pillager_outpost"
-              }
+              "type": "minecraft:zombified_piglin"
             }
           }
         ]

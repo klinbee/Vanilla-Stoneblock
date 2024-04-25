@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo",
+      "count": 1
+    },
+    "title": {
+      "translate": "The Master of All Grass"
+    },
+    "description": {
+      "translate": "Obtain a piece of Bamboo from fishing in a Jungle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/cod_bucket",
+  "criteria": {
+    "Bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

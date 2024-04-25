@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl",
+      "count": 1
+    },
+    "title": {
+      "translate": "Glitch in the Matrix"
+    },
+    "description": {
+      "translate": "Attempt to escape the confines of Stoneblock",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/getting_wood",
+  "criteria": {
+    "Matrix": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

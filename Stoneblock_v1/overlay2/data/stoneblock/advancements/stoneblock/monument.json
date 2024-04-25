@@ -1,13 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:prismarine",
+      "count": 1
     },
     "title": {
-      "translate": "Pompeii"
+      "translate": "Ocean of Stone"
     },
     "description": {
-      "translate": "Find the remains of a Pillager Outpost covered in stone"
+      "translate": "Locate a buried Ocean Monument"
     },
     "frame": "goal",
     "show_toast": true,
@@ -16,8 +17,7 @@
   },
   "parent": "stoneblock:stoneblock/mob_drops",
   "criteria": {
-    "outpost": {
-      "trigger": "minecraft:location",
+    "monument": {
       "conditions": {
         "player": [
           {
@@ -25,12 +25,18 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "pillager_outpost"
+                "structures": "minecraft:monument"
               }
             }
           }
         ]
-      }
+      },
+      "trigger": "minecraft:location"
     }
-  }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ]
 }
