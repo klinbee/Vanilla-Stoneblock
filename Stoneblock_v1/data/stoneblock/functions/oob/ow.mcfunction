@@ -1,5 +1,5 @@
-#moves spawnpoint from roof and teleports player down.
-function stoneblock:spawnpoint/mover
+# moves spawnpoint from roof and teleports player down.
+tp @s 0 64 0 -45 0
 
 advancement grant @s only stoneblock:stoneblock/matrix
 
