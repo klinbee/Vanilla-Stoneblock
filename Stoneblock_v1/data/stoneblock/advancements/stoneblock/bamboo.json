@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "stoneblock:stoneblock/cod_bucket",
+  "parent": "stoneblock:stoneblock/fish_bucket",
   "criteria": {
     "Bamboo": {
       "trigger": "minecraft:inventory_changed",

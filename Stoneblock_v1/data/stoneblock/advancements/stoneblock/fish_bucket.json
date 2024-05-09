@@ -53,5 +53,12 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "Bucket of Pufferfish",
+      "Bucket of Cod",
+      "Bucket of Tropical Fish"
+    ]
+  ]
 }
