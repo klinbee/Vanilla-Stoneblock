@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:lava",
+    "minecraft:netherrack",
+    "minecraft:nether_brick_fence",
+    "minecraft:nether_bricks",
+    "minecraft:nether_brick_stairs",
+    "minecraft:soul_sand",
+    "minecraft:nether_wart",
+    "minecraft:spawner",
+    "minecraft:bedrock"
+  ]
+}
