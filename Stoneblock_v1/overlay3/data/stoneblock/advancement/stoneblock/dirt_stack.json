@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "Dirt Farmer"
+    },
+    "description": {
+      "translate": "Farm a stack of Dirt Blocks to spawn animals and grow crops"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/dirt",
+  "criteria": {
+    "Dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

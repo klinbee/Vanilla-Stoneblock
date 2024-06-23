@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "I Can't Eat This!"
+    },
+    "description": {
+      "translate": "Smelt Mob Armor into a both types of Nuggets"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/getting_wood",
+  "criteria": {
+    "Iron Nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "Gold Nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

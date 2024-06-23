@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Pompeii"
+    },
+    "description": {
+      "translate": "Find the remains of a Pillager Outpost covered in stone"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/mob_drops",
+  "criteria": {
+    "outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "pillager_outpost"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

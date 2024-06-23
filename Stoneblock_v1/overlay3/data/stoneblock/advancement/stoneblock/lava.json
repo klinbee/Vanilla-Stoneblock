@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Make it Double!"
+    },
+    "description": {
+      "translate": "Stand in a Lava Cauldron while also holding a Bucket of Lava"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/cauldron",
+  "criteria": {
+    "Lava Cauldron": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:lava_bucket"
+              ]
+            }
+          }
+        },
+        "block": "minecraft:lava_cauldron"
+      }
+    }
+  }
+}

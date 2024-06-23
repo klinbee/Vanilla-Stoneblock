@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Hey! You Took My Lawn!"
+    },
+    "description": {
+      "translate": "Take back a Grass Block from an Enderman"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stoneblock:stoneblock/dirt_stack",
+  "criteria": {
+    "Grass Block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
