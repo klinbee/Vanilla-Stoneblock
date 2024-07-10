@@ -1,23 +1,7 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:spruce_planks"
-    },
-    "title": {
-      "translate": "Medusa's Lair"
-    },
-    "description": {
-      "translate": "Locate a buried Witch Hut"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "stoneblock:stoneblock/mob_drops",
   "criteria": {
     "witch_hut": {
-      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -25,12 +9,34 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "swamp_hut"
+                "structures": "minecraft:swamp_hut"
               }
             }
           }
         ]
-      }
+      },
+      "trigger": "minecraft:location"
     }
-  }
+  },
+  "display": {
+    "description": {
+      "translate": "Locate a buried Witch Hut"
+    },
+    "icon": {
+      "id": "minecraft:spruce_planks",
+      "count": 1
+    },
+    "title": {
+      "translate": "Medusa's Lair"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "witch_hut"
+    ]
+  ]
 }

@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:moss_block"
+      "id": "minecraft:moss_block",
+      "count": 1
     },
     "title": {
       "translate": "Green Thumb"

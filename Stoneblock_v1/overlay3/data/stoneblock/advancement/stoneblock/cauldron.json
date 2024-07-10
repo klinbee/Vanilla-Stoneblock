@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cauldron"
+      "id": "minecraft:cauldron",
+      "count": 1
     },
     "title": {
       "translate": "Lava Multiplier"

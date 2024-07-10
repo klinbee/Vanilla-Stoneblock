@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_apple"
+      "id": "minecraft:golden_apple",
+      "count": 1
     },
     "title": {
       "translate": "Forbidden Fruit"

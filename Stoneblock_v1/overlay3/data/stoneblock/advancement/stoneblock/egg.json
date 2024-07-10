@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:egg"
+      "id": "minecraft:egg",
+      "count": 1
     },
     "title": {
       "translate": "Which Came First?"

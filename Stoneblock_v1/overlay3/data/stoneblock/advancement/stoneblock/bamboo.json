@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bamboo"
+      "id": "minecraft:bamboo",
+      "count": 1
     },
     "title": {
       "translate": "The Master of All Grass"

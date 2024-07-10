@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget"
+      "id": "minecraft:gold_nugget",
+      "count": 1
     },
     "title": {
       "translate": "I Can't Eat This!"

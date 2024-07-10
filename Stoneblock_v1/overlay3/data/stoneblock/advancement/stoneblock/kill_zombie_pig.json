@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_block"
+      "id": "minecraft:gold_block",
+      "count": 1
     },
     "title": {
       "translate": "Gilded Age"

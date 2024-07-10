@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_hoe"
+      "id": "minecraft:stone_hoe",
+      "count": 1
     },
     "title": {
       "translate": "Budget Haste"

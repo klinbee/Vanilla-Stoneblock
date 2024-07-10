@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "id": "minecraft:ender_pearl",
+      "count": 1
     },
     "title": {
       "translate": "Glitch in the Matrix"

@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_eye"
+      "id": "minecraft:ender_eye",
+      "count": 1
     },
     "title": {
       "translate": "We're in the Endgame Now"

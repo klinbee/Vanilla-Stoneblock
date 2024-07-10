@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_pickaxe"
+      "id": "minecraft:golden_pickaxe",
+      "count": 1
     },
     "title": {
       "translate": "Expensive Haste"

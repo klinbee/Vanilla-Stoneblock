@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rotten_flesh"
+      "id": "minecraft:rotten_flesh",
+      "count": 1
     },
     "title": {
       "translate": "Scavenger"

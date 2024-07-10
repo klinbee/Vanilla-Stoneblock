@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dead_bush"
+      "id": "minecraft:dead_bush",
+      "count": 1
     },
     "title": {
       "translate": "Shearious Dedication"

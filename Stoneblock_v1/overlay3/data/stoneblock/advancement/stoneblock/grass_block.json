@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:grass_block"
+      "id": "minecraft:grass_block",
+      "count": 1
     },
     "title": {
       "translate": "Hey! You Took My Lawn!"

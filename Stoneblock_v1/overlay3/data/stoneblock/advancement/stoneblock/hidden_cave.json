@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pointed_dripstone"
+      "id": "minecraft:pointed_dripstone",
+      "count": 1
     },
     "title": {
       "translate": "Secrets of the Cave"

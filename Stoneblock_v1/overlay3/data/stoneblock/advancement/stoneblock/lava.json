@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lava_bucket"
+      "id": "minecraft:lava_bucket",
+      "count": 1
     },
     "title": {
       "translate": "Make it Double!"

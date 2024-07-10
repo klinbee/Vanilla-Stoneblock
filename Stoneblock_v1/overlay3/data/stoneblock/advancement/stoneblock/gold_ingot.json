@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_ingot"
+      "id": "minecraft:gold_ingot",
+      "count": 1
     },
     "title": {
       "translate": "Gold Rush"

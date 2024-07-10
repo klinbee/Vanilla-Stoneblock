@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:beacon"
+      "id": "minecraft:beacon",
+      "count": 1
     },
     "title": {
       "translate": "I am Speed"

@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flowering_azalea"
+      "id": "minecraft:flowering_azalea",
+      "count": 1
     },
     "title": {
       "translate": "Getting Wood"

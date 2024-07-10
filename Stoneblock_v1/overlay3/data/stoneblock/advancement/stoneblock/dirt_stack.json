@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dirt"
+      "id": "minecraft:dirt",
+      "count": 1
     },
     "title": {
       "translate": "Dirt Farmer"

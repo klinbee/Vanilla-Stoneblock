@@ -1,28 +1,29 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone"
-        },
-        "title": {
-            "translate": "Stoneblock"
-        },
-        "description": {
-            "translate": "Welcome to Stoneblock!"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "count": 1
     },
-    "criteria": {
-        "stoneblock": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "Stoneblock"
     },
-    "requirements": [
-        [
-            "stoneblock"
-        ]
+    "description": {
+      "translate": "Welcome to Stoneblock!"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "stoneblock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "stoneblock"
     ]
+  ]
 }

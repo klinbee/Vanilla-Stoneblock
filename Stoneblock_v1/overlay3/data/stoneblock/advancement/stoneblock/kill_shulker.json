@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shulker_box"
+      "id": "minecraft:shulker_box",
+      "count": 1
     },
     "title": {
       "translate": "Box Elimination"

@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:prismarine"
+      "id": "minecraft:prismarine",
+      "count": 1
     },
     "title": {
       "translate": "Ocean of Stone"
@@ -17,7 +18,6 @@
   "parent": "stoneblock:stoneblock/mob_drops",
   "criteria": {
     "monument": {
-      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -25,12 +25,18 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "monument"
+                "structures": "minecraft:monument"
               }
             }
           }
         ]
-      }
+      },
+      "trigger": "minecraft:location"
     }
-  }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ]
 }

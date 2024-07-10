@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:apple"
+      "id": "minecraft:apple",
+      "count": 1
     },
     "title": {
       "translate": "Doctors, Beware!"
