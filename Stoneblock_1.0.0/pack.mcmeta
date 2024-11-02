@@ -1,0 +1,64 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "An old challenge, remade",
+        "color": "#f5a30a"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Klinbee",
+        "color": "#ffc76f"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "tjthings",
+        "color": "#81cd9a"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      999
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          18,
+          999
+        ],
+        "directory": "overlay1"
+      },
+      {
+        "formats": [
+          41,
+          999
+        ],
+        "directory": "overlay2"
+      },
+      {
+        "formats": [
+          48,
+          999
+        ],
+        "directory": "overlay3"
+      },
+      {
+        "formats": [
+          57,
+          999
+        ],
+        "directory": "overlay_new"
+      }
+    ]
+  }
+}
