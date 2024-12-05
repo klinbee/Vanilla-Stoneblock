@@ -29,12 +29,8 @@
       "stoneblock:ow/ceiling"
     ],
     [],
-    [
-      "minecraft:flower_default"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:flower_default"],
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

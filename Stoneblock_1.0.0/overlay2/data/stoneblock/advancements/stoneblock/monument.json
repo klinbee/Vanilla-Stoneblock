@@ -34,9 +34,5 @@
       "trigger": "minecraft:location"
     }
   },
-  "requirements": [
-    [
-      "monument"
-    ]
-  ]
+  "requirements": [["monument"]]
 }

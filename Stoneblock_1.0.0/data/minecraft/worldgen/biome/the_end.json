@@ -22,9 +22,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:end_spike"
-    ],
+    ["minecraft:end_spike"],
     [
       "stoneblock:end/64",
       "stoneblock:end/80",

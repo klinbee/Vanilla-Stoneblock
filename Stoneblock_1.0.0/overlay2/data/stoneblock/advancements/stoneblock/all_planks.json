@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bamboo_planks"
-            ]
+            "items": ["minecraft:bamboo_planks"]
           }
         ]
       }
@@ -34,9 +32,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oak_planks"
-            ]
+            "items": ["minecraft:oak_planks"]
           }
         ]
       }
@@ -46,9 +42,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:dark_oak_planks"
-            ]
+            "items": ["minecraft:dark_oak_planks"]
           }
         ]
       }
@@ -58,9 +52,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:birch_planks"
-            ]
+            "items": ["minecraft:birch_planks"]
           }
         ]
       }
@@ -70,9 +62,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:spruce_planks"
-            ]
+            "items": ["minecraft:spruce_planks"]
           }
         ]
       }
@@ -82,9 +72,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:warped_planks"
-            ]
+            "items": ["minecraft:warped_planks"]
           }
         ]
       }
@@ -94,9 +82,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:crimson_planks"
-            ]
+            "items": ["minecraft:crimson_planks"]
           }
         ]
       }
@@ -106,9 +92,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:acacia_planks"
-            ]
+            "items": ["minecraft:acacia_planks"]
           }
         ]
       }
@@ -118,9 +102,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:jungle_planks"
-            ]
+            "items": ["minecraft:jungle_planks"]
           }
         ]
       }
@@ -130,9 +112,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:spruce_planks"
-            ]
+            "items": ["minecraft:spruce_planks"]
           }
         ]
       }
@@ -142,9 +122,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cherry_planks"
-            ]
+            "items": ["minecraft:cherry_planks"]
           }
         ]
       }

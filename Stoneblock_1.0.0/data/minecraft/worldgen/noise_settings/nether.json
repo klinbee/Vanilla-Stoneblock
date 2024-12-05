@@ -76,12 +76,12 @@
       {
         "type": "minecraft:condition",
         "if_true": {
-            "type": "minecraft:y_above",
-            "anchor": {
-              "absolute": 127
-            },
-            "surface_depth_multiplier": 0,
-            "add_stone_depth": false
+          "type": "minecraft:y_above",
+          "anchor": {
+            "absolute": 127
+          },
+          "surface_depth_multiplier": 0,
+          "add_stone_depth": false
         },
         "then_run": {
           "type": "minecraft:block",

@@ -34,9 +34,5 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "requirements": [
-    [
-      "witch_hut"
-    ]
-  ]
+  "requirements": [["witch_hut"]]
 }

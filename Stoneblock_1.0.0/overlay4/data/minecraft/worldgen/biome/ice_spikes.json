@@ -16,10 +16,7 @@
   },
   "features": [
     [],
-    [
-      "minecraft:ice_spike",
-      "minecraft:ice_patch"
-    ],
+    ["minecraft:ice_spike", "minecraft:ice_patch"],
     [],
     [],
     [],
@@ -35,12 +32,8 @@
       "stoneblock:ow/ceiling"
     ],
     [],
-    [
-      "minecraft:flower_default"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:flower_default"],
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

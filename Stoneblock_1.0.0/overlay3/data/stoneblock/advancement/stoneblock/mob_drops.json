@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:rotten_flesh"
-            ]
+            "items": ["minecraft:rotten_flesh"]
           }
         ]
       }
@@ -34,9 +32,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bone"
-            ]
+            "items": ["minecraft:bone"]
           }
         ]
       }
@@ -46,9 +42,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:arrow"
-            ]
+            "items": ["minecraft:arrow"]
           }
         ]
       }
@@ -58,9 +52,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:string"
-            ]
+            "items": ["minecraft:string"]
           }
         ]
       }
@@ -70,9 +62,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:spider_eye"
-            ]
+            "items": ["minecraft:spider_eye"]
           }
         ]
       }
@@ -82,9 +72,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:gunpowder"
-            ]
+            "items": ["minecraft:gunpowder"]
           }
         ]
       }
@@ -94,9 +82,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glowstone_dust"
-            ]
+            "items": ["minecraft:glowstone_dust"]
           }
         ]
       }
@@ -106,9 +92,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:redstone"
-            ]
+            "items": ["minecraft:redstone"]
           }
         ]
       }
@@ -118,9 +102,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glass_bottle"
-            ]
+            "items": ["minecraft:glass_bottle"]
           }
         ]
       }
@@ -130,9 +112,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sugar"
-            ]
+            "items": ["minecraft:sugar"]
           }
         ]
       }

@@ -21,9 +21,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "requirements": [
-    [
-      "stoneblock"
-    ]
-  ]
+  "requirements": [["stoneblock"]]
 }

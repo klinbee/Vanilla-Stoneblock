@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stone_hoe"
-            ]
+            "items": ["minecraft:stone_hoe"]
           }
         ]
       }

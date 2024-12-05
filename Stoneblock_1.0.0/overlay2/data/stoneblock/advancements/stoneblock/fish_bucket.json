@@ -23,9 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cod_bucket"
-            ]
+            "items": ["minecraft:cod_bucket"]
           }
         ]
       }
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:tropical_fish_bucket"
-            ]
+            "items": ["minecraft:tropical_fish_bucket"]
           }
         ]
       }
@@ -47,19 +43,13 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:pufferfish_bucket"
-            ]
+            "items": ["minecraft:pufferfish_bucket"]
           }
         ]
       }
     }
   },
   "requirements": [
-    [
-      "Bucket of Pufferfish",
-      "Bucket of Cod",
-      "Bucket of Tropical Fish"
-    ]
+    ["Bucket of Pufferfish", "Bucket of Cod", "Bucket of Tropical Fish"]
   ]
 }

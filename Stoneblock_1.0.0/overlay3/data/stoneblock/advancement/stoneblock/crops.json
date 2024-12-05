@@ -25,9 +25,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": [
-                  "minecraft:wheat"
-                ]
+                "blocks": ["minecraft:wheat"]
               }
             }
           }
@@ -42,9 +40,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": [
-                  "minecraft:carrots"
-                ]
+                "blocks": ["minecraft:carrots"]
               }
             }
           }
@@ -59,9 +55,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": [
-                  "minecraft:potatoes"
-                ]
+                "blocks": ["minecraft:potatoes"]
               }
             }
           }

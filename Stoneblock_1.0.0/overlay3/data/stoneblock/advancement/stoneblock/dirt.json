@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:hanging_roots"
-            ]
+            "items": ["minecraft:hanging_roots"]
           }
         ]
       }

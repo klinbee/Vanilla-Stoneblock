@@ -14,7 +14,6 @@
     "water_fog_color": 329011
   },
   "features": [
-
     [],
     [],
     [],
@@ -31,12 +30,8 @@
       "stoneblock:ow/ceiling"
     ],
     [],
-    [
-      "minecraft:flower_plains"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:flower_plains"],
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

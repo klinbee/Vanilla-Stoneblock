@@ -41,9 +41,7 @@
       "minecraft:trees_flower_forest",
       "minecraft:flower_flower_forest"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

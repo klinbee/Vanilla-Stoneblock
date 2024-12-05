@@ -23,9 +23,7 @@
         "player": {
           "stepping_on": {
             "block": {
-              "blocks": [
-                "minecraft:sand"
-              ]
+              "blocks": ["minecraft:sand"]
             }
           }
         }

@@ -38,12 +38,8 @@
       "stoneblock:ow/ceiling"
     ],
     [],
-    [
-      "minecraft:flower_cherry"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:flower_cherry"],
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

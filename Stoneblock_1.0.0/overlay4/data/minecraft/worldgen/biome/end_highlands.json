@@ -14,12 +14,8 @@
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "minecraft:end_gateway_return"
-    ],
-    [
-      "minecraft:chorus_plant"
-    ],
+    ["minecraft:end_gateway_return"],
+    ["minecraft:chorus_plant"],
     [],
     [],
     [],
